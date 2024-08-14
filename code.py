@@ -1,5 +1,5 @@
 # Make It Talk - Prof. John Gallaugher's animation of
-import board, time, mount_sd, audiomixer, adafruit_mpr121, random
+import board, mount_sd, audiomixer, adafruit_mpr121, random
 from adafruit_debouncer import Button
 from audiomp3 import MP3Decoder
 try:
