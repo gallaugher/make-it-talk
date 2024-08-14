@@ -1,4 +1,5 @@
-# Make It Talk - Prof. John Gallaugher's animation of
+# Make It Talk - for complete build info see:
+# https://github.com/gallaugher/make-it-talk
 import board, mount_sd, audiomixer, adafruit_mpr121, random
 from adafruit_debouncer import Button
 from audiomp3 import MP3Decoder
@@ -77,9 +78,11 @@ while True:
     button_0.update()
     button_5.update()
     if button_0.pressed:
-        print(f"Saying: {sayings[phrase_number]}")
-        play_mp3_voice(sayings[phrase_number])
-        phrase_number = phrase_number + 1 if phrase_number < (len(sayings)-1) else 0
+        print(f"Saying: {sayings[saying_number]}")
+        play_mp3_voice(sayings[saying_number])
+        saying_number = (saying_number + 1) % (len(sayings) + 1)
+        # one-liner below does the same thing - goes from 0 to 9, then back to 0 and starts over
+        # saying_number = saying_number + 1 if saying_number < (len(sayings)-1) else 0
     if button_5.pressed:
         random_phrase = random.choice(answers)
         print(f"Advice phrase: {random_phrase}")
