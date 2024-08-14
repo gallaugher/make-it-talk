@@ -35,7 +35,7 @@ sayings = ["seeking_professor_g_you_are.mp3",
               "awesomeness_you_bring_yes.mp3",
               "wonder_i_am_a_person_for_others_are_you.mp3",
               "trust_in_the_one_who_is_bald_and_wears_a_beard_wise_he_is.mp3",
-              "young_padawan_questions_for_me_have_you.mp3"
+              "young_padawan_questions_for_me_have_you.mp3",
               "a_true_eagle_to_become_kind_you_must_be_mmm.mp3",
               "a_geek_you_will_become_study_hard_you_must.mp3"]
 
@@ -80,7 +80,7 @@ while True:
     if button_0.pressed:
         print(f"Saying: {sayings[saying_number]}")
         play_mp3_voice(sayings[saying_number])
-        saying_number = (saying_number + 1) % (len(sayings) + 1)
+        saying_number = (saying_number + 1) % (len(sayings))
         # one-liner below does the same thing - goes from 0 to 9, then back to 0 and starts over
         # saying_number = saying_number + 1 if saying_number < (len(sayings)-1) else 0
     if button_5.pressed:
