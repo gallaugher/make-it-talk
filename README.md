@@ -16,7 +16,10 @@ pin-pin jumper wires (example): https://www.adafruit.com/product/1956
 Wires with alligator clips on both ends (example): https://www.adafruit.com/product/1008
 Possible - copper wire or something else to wrap around contact points to "touch" and trigger sound play.
 
+<img width="1600" alt="wiring" src="https://github.com/user-attachments/assets/306232c2-553a-4294-b41c-023b59776988">
+
 Step-by-step build video at: https://YouTube.com/profgallaugher
 
+For example below - be sure to click the volume on icon at the bottom of the video.
 [Watch the video](https://github.com/user-attachments/assets/0fb3cf10-94f0-4e4f-bf3d-c78ea7465ea0)
 
