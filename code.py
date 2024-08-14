@@ -27,7 +27,7 @@ mp3_file = open(path + filename, "rb") # read in data from file
 decoder = MP3Decoder(mp3_file)
 
 #
-bc_phrases = ["seeking_professor_g_you_are.mp3",
+sayings = ["seeking_professor_g_you_are.mp3",
               "hungry_are_you_skittles_you_may_have.mp3",
               "welcome_you_are_happy_to_see_you.mp3",
               "strength_in_swift_and_circuit_python.mp3",
@@ -78,9 +78,9 @@ while True:
     button_0.update()
     button_5.update()
     if button_0.pressed:
-        print(f"BC Phrase: {bc_phrases[phrase_number]}")
-        play_mp3_voice(bc_phrases[phrase_number])
-        phrase_number = phrase_number + 1 if phrase_number < (len(bc_phrases)-1) else 0
+        print(f"Saying: {sayings[phrase_number]}")
+        play_mp3_voice(sayings[phrase_number])
+        phrase_number = phrase_number + 1 if phrase_number < (len(sayings)-1) else 0
     if button_5.pressed:
         random_phrase = random.choice(answers)
         print(f"Advice phrase: {random_phrase}")
