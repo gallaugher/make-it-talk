@@ -1,4 +1,6 @@
 # make-it-talk
+Make any object "Talk" when touched. Uses CircuitPython and the components below:
+
 Be sure to add mount_sd.py to the "lib" folder on your CIRCUITPY volume.
 Parts I've Used (feel free to modify them):
 Raspberry Pi Pico w/soldered headers (newer boards like Pico 2 or WiFi Pico W work fine): https://www.adafruit.com/product/5525
@@ -16,4 +18,5 @@ Possible - copper wire or something else to wrap around contact points to "touch
 
 Step-by-step build video at: https://YouTube.com/profgallaugher
 Example:
+(https://github.com/user-attachments/assets/8c07e943-3052-44a7-a86d-67e5851a3109)
 
