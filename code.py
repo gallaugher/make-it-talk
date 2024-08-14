@@ -71,8 +71,7 @@ touch_pad = adafruit_mpr121.MPR121(i2c)
 button_0 = Button(touch_pad[0], value_when_pressed=True)
 button_5 = Button(touch_pad[5], value_when_pressed=True)
 
-phrase_number = 0
-interval = 0.4
+saying_number = 0
 
 while True:
     button_0.update()
