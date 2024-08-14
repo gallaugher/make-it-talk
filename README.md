@@ -17,5 +17,6 @@ Wires with alligator clips on both ends (example): https://www.adafruit.com/prod
 Possible - copper wire or something else to wrap around contact points to "touch" and trigger sound play.
 
 Step-by-step build video at: https://YouTube.com/profgallaugher
+
 [Watch the video](https://github.com/user-attachments/assets/1e88e74a-75be-4d2d-bd13-03e026dbd904)
 
