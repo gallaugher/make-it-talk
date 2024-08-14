@@ -21,5 +21,6 @@ Possible - copper wire or something else to wrap around contact points to "touch
 Step-by-step build video at: https://YouTube.com/profgallaugher
 
 For example below - be sure to click the volume on icon at the bottom of the video.
+
 [Watch the video](https://github.com/user-attachments/assets/0fb3cf10-94f0-4e4f-bf3d-c78ea7465ea0)
 
