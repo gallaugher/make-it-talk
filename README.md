@@ -18,7 +18,7 @@ Possible - copper wire or something else to wrap around contact points to "touch
 
 <img width="1600" alt="wiring" src="https://github.com/user-attachments/assets/306232c2-553a-4294-b41c-023b59776988">
 
-Step-by-step build video at: https://YouTube.com/profgallaugher
+Step-by-step build video at: [https://YouTube.com/profgallaugher](https://youtu.be/7ZfKEFuvWEY?si=B5SgSPY-eMRv-vnA)
 
 For example below - be sure to click the volume on icon at the bottom of the video.
 
