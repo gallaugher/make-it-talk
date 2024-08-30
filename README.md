@@ -16,6 +16,8 @@ pin-pin jumper wires (example): https://www.adafruit.com/product/1956
 Wires with alligator clips on both ends (example): https://www.adafruit.com/product/1008
 Possible - copper wire or something else to wrap around contact points to "touch" and trigger sound play.
 
+Note: I found that the MPR121 would go off randomly, even if I tried tweaking the .threshold for each pad, so instead I wrote code to manually test for a long press. You can find that above in the file named: "yoda-long-press-with-time-monotonic.py" You can use this in place of the standard code.py
+
 <img width="1600" alt="wiring" src="https://github.com/user-attachments/assets/306232c2-553a-4294-b41c-023b59776988">
 
 Step-by-step build video at: [https://YouTube.com/profgallaugher](https://youtu.be/7ZfKEFuvWEY?si=B5SgSPY-eMRv-vnA)
